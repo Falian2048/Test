@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: my_database
+    database: postgres   # название базы данных
+    schema: public       # схема, в которой находится таблица
+    tables:
+      - name: main       # имя таблицы
